@@ -59,11 +59,11 @@ const GetInTouch = () => {
 		}
 	};
 	return (
-		<div className="bg-[#F8FAFC] w-full h-[1080px] md:h-[890px] mt-10 py-8">
+		<div className="bg-[#F8FAFC] w-full h-[1080px] md:h-[890px] lg:mt-10 py-8">
 			<div className="container mx-auto flex flex-col lg:flex-row justify-center items-start w-full h-full gap-10">
 				<div className="w-full lg:w-[50%]">
-					<div className="w-[95%] md:w-[80%] mx-auto space-y-3 mt-12">
-						<h2 className="text-2xl sm:text-3xl text-center md:text-start md:text-5xl text-[#343651] font-semibold">
+					<div className="w-[95%] md:w-[80%] mx-auto space-y-3 lg:mt-12">
+						<h2 className="text-2xl sm:text-3xl text-center md:text-start md:text-5xl text-teritary font-semibold">
 							Please Get In Touch Let’s Talk!
 						</h2>
 						<p className="text-[#667085] text-base text-center md:text-start">
@@ -71,7 +71,7 @@ const GetInTouch = () => {
 						</p>
 					</div>
 				</div>
-				<div className="w-[95%] lg:w-[567px] shadow-lg rounded-2xl">
+				<div className="w-[100%] lg:w-[567px] shadow-lg rounded-2xl">
 					<form
 						onSubmit={handleSubmit(onSubmit)}
 						className="flex flex-col gap-5 p-4 md:p-8 border bg-white border-[#E6E6E6] rounded-2xl"

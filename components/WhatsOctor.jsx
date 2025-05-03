@@ -52,7 +52,7 @@ const WhatsOctor = () => {
 ]
   return (
     <AnimatePresence mode="wait">
-      <div className="container mx-auto mt-16 mb-32 px-3 md:px-0">
+      <div className="container mx-auto mt-16 mb-32 lg:px-3 md:px-0">
         
         <h2 className="text text-center text-3xl md:text-4xl font-semibold tracking-wider text-primary">
           Our Intelligent Solutions
@@ -86,7 +86,7 @@ const WhatsOctor = () => {
           <img src={d.icon} alt={d.title} className="object-contain h-16 w-16 " />
         </div>
              
-              <h3 className="mt-3 text-xl font-semibold text-teritary">{d?.title}</h3>
+              <h3 className="text-left mt-3 text-xl font-semibold text-teritary">{d?.title}</h3>
               <p className="text-sm text-left">{d?.desc}</p>
             </motion.div>
           ))}
