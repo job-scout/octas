@@ -38,7 +38,19 @@ const Header = () => {
 						</p>
 					
 					</motion.div>
-					<div className="flex items-center justify-center">
+					<motion.div initial={{ opacity: 0, x: 60 }}
+							whileInView={{ opacity: 1, x: 0 }}
+							exit={{ opacity: 0, x: 60 }}
+							transition={{
+								duration: 0.5,
+								delay: 0.2,
+								scale: {
+									type: "spring",
+									damping: 14,
+									stiffness: 200,
+									restDelta: 0.001,
+								},
+							}} className="flex items-center justify-center">
 						<img
 							src="/banner-final.png"
 							
@@ -46,7 +58,7 @@ const Header = () => {
 							className=" w-auto h-auto object-contain "
 						/>
 						
-					</div>
+					</motion.div>
 				</div>
 			</AnimatePresence>
 		</div>

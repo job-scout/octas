@@ -260,7 +260,7 @@ const GetInTouch = () => {
 									!phoneNumber ||
 									!isValidPhoneNumber(phoneNumber || "")
 										? "bg-gray-500 cursor-not-allowed"
-										: "bg-primary cursor-pointer"
+										: "bg-teritary cursor-pointer"
 								}`}
 								disabled={
 									!firstName ||
