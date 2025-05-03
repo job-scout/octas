@@ -11,7 +11,34 @@ html {
   scroll-behavior: smooth !important;
   --scroll-behavior: smooth !important;
 }
+.logo {
 
+  position: relative;
+}
+
+
+
+
+.logo-overflow {
+  display: inline-block;
+  /* A little extra padding and overflow hidden   */
+  overflow: hidden;
+  padding-bottom: clamp(1rem, 2vmin, 2rem);
+}
+
+.logo-clip:after {
+  content: '';
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid #635454;
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
+}
 
 .dots {
    width: 56px;
@@ -75,12 +102,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-section {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  padding: 70px;
-}
+
 .text-container {
   display: flex;
   flex-direction: column;
@@ -124,22 +146,8 @@ section {
 }
 
 @media only screen and (max-width: 1024px) {
-  section {
-    padding: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .text-container {
-    gap: 20px;
-  }
-  .heading {
-    line-height: 45px;
-    font-size: 25px;
-  }
 
-  .responsive_box {
-    flex-direction: column;
-  }
+ 
 }
 
 .transition-one {
