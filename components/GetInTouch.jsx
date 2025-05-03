@@ -59,7 +59,7 @@ const GetInTouch = () => {
 		}
 	};
 	return (
-		<div className="bg-[#F8FAFC] w-full h-[1080px] md:h-[890px] lg:mt-10 py-8">
+		<div className=" w-full h-[1080px] md:h-[890px] lg:mt-10 py-8">
 			<div className="container mx-auto flex flex-col lg:flex-row justify-center items-start w-full h-full gap-10">
 				<div className="w-full lg:w-[50%]">
 					<div className="w-[95%] md:w-[80%] mx-auto space-y-3 lg:mt-12">
