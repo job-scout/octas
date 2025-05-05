@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <>
       <section className="sticky top-0 z-50 mb-1 flex  justify-center bg-white lg:py-4 container mx-auto px-2 lg:px-4 2xl:w-[90%] w-full">
-        <div className="container hidden w-full justify-between px-4 py-2 lg:flex">
+        <div className="container hidden w-full justify-between px-4  lg:flex">
           <Link href="/">
-           <div className="logo  logo-clip text-3xl font-bold text-primary">OCTAS</div>
+          <img src="/octas.png" className="h-12"/>
           </Link>
           <NavItems />
         </div>

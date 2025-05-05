@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         primary: "#13AA52",           // MongoDB Green Buttons, Links, Highlights
         accent: "#17B75E",            // Bright Leaf (Green Hover/Accent)
-        mutedGreen: "#7BBF9E",        // Muted Green (Mint Gray-Green) Subtle Backgrounds or Cards
+        secondary: "#7BBF9E",        // Muted Green (Mint Gray-Green) Subtle Backgrounds or Cards
         lightGreen: "#E6F4EA",        // Light Mint (Soft Green) Light Backgrounds or Cards
         backgroundDark: "#1A1A1A",   // Charcoal Black (Background)
         backgroundGray: "#2C2C2C",   // Deep Gray (Card/Section BG)
