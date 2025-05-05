@@ -110,7 +110,7 @@ const PhraseByPhraseAnimation = ({ onAnimationEnd }) => {
             {/* Progress Bar */}
             <div className="mt-10 w-72 h-3 bg-gray-300 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-secondary"
+                className="h-full bg-[#99d380]"
                 initial={{ width: "0%" }}
                 animate={{ width: `${progress}%` }}
                 transition={{

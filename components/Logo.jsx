@@ -2,7 +2,9 @@ import React from 'react'
 
 function Logo() {
   return (
-     <div className="logo  logo-clip text-3xl font-bold text-primary">OCTAS</div>
+    <>
+    <img src="/logo.png" className='w-28 h-auto'/>
+    </>
   )
 }
 
