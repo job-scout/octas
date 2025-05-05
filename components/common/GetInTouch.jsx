@@ -4,9 +4,10 @@ import { Controller, useForm, useWatch } from "react-hook-form";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { isValidPhoneNumber } from "libphonenumber-js";
-import TextInput from "./InputFields/TextInput";
+
 import axios from "axios";
 import { toast } from "react-toastify";
+import TextInput from "./InputFields/TextInput";
 
 const GetInTouch = () => {
 	const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,7 +60,7 @@ const GetInTouch = () => {
 		}
 	};
 	return (
-		<div className=" w-full h-[1080px] md:h-[890px] lg:mt-10 py-8">
+		<div id="contact-us"  className=" w-full h-[1080px] md:h-[890px] lg:mt-10 py-8">
 			<div className="container mx-auto flex flex-col lg:flex-row justify-center items-start w-full h-full gap-10">
 				<div className="w-full lg:w-[50%]">
 					<div className="w-[95%] md:w-[80%] mx-auto space-y-3 lg:mt-12">

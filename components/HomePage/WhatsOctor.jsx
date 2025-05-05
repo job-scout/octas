@@ -78,7 +78,7 @@ const WhatsOctor = () => {
                 },
               }}
               key={index}
-              className="flex flex-col items-start  gap-4  bg-gradient-to-t from-secondary to-white px-8 py-8 text-center shadow-xl  rounded-2xl "
+              className="flex flex-col items-start  gap-4  bg-gradient-to-t from-yellow-50 to-white px-8 py-8 text-center shadow-xl  rounded-2xl "
              >
                 <div
           
@@ -86,7 +86,7 @@ const WhatsOctor = () => {
           <img src={d.icon} alt={d.title} className="object-contain h-16 w-16 " />
         </div>
              
-              <h3 className="text-left mt-3 text-xl font-semibold text-teritary">{d?.title}</h3>
+              <h3 className="text-left mt-3 text-xl font-semibold text-backgroundDark">{d?.title}</h3>
               <p className="text-sm text-left">{d?.desc}</p>
             </motion.div>
           ))}

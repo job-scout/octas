@@ -1,7 +1,9 @@
-import Navbar from "@/components/Navbar/Navbar";
-import PhraseByPhraseAnimation from "@/components/PhraseByPhraseAnimation";
+import Navbar from "@/components/common/Navbar/Navbar";
+import PhraseByPhraseAnimation from "@/components/initial/PhraseByPhraseAnimation";
 import "@/styles/globals.css";
 import { Clock } from "lucide-react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -69,7 +71,7 @@ export default function App({ Component, pageProps }) {
 				</>
 			) : (
 				<>
-					<Navbar />
+					
 					<Toaster position="top-center" />
 					<Component {...pageProps} />
 				</>
