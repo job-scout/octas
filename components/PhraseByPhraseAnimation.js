@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Logo from "./Logo";
 
-const phrases = ["We Build", "We Engineer", "We Market", "We Optimize"];
+const phrases = ["We Design", "We Develop", "We Advertise", "We Automate"];
 
 const backgrounds = [
   "/banner-bg.png",
@@ -65,7 +65,7 @@ const PhraseByPhraseAnimation = ({ onAnimationEnd }) => {
 
   return (
     <div
-      className="relative flex flex-col items-center justify-center h-screen bg-center w-full object-cover bg-no-repeat"
+      className="relative flex flex-col items-center justify-center h-screen bg-center w-full object-cover "
       style={{
         backgroundImage: `url(${backgrounds[currentPhraseIndex]})`,
       }}
@@ -110,7 +110,7 @@ const PhraseByPhraseAnimation = ({ onAnimationEnd }) => {
             {/* Progress Bar */}
             <div className="mt-10 w-72 h-3 bg-gray-300 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-[#99d380]"
+                className="h-full bg-yellow-200"
                 initial={{ width: "0%" }}
                 animate={{ width: `${progress}%` }}
                 transition={{
