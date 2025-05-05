@@ -85,7 +85,7 @@ const PhraseByPhraseAnimation = ({ onAnimationEnd }) => {
 									transition={{ duration: 0.8 }}
 									className="font-bold text-center text-3xl lg:text-4xl drop-shadow-xl tracking-wide text-white"
 								>
-									<div className="flex items-center justify-center mb-12">
+									<div className="flex items-center justify-center mb-8">
 										<img
 								src={"/logo.png"}
 								alt="Logo"

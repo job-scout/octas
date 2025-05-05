@@ -132,4 +132,21 @@ code {
   }
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
+.sub_heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #333333;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4f4f4f;
+}
