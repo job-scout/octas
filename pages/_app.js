@@ -9,9 +9,18 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function App({ Component, pageProps }) {
 	const router = useRouter();
 	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		AOS.init({
+			duration: 1000,
+			once: false,
+		});
+	}, []);
 
 	useEffect(() => {
 		const handleRouteChangeStart = () => {
@@ -71,7 +80,6 @@ export default function App({ Component, pageProps }) {
 				</>
 			) : (
 				<>
-					
 					<Toaster position="top-center" />
 					<Component {...pageProps} />
 				</>

@@ -29,6 +29,15 @@ code {
     monospace;
 }
 
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  scrollbar-width: none;
+}
+
+
 /* HTML: <div class="loader"></div> */
 .loader {
 	width: 60px;
@@ -107,6 +116,16 @@ section {
   font-weight: 700;
   text-align: center;
   line-height: 60px;
+}
+
+.transition-one {
+  transition: 0.1s;
+}
+.transition-two {
+  transition: 0.2s;
+}
+.transition-five {
+  transition: 0.5s;
 }
 
 /* home page banner */
