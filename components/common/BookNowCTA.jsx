@@ -3,7 +3,7 @@ import React from "react";
 function BookNowCTA() {
 	return (
 		<div className="px-4 pb-28 lg:px-40 container mx-auto 2xl:w-[80%] ">
-			<div className="relative   text-center px-4 py-12 rounded-3xl hidden lg:flex items-center lg:h-[280px] border-x border-teritary">
+			<div className="relative   text-center px-4 py-12 rounded-3xl hidden lg:flex items-center lg:h-[280px] border-x border-accent">
 				<div className="w-[70%]">
 					<h2 className="text-xl md:text-xl font-medium pb-8 px-8">
 						Book a free consultation to explore how AI-powered solutions can elevate your business. We're here to help you grow smarter.
@@ -20,7 +20,7 @@ function BookNowCTA() {
 				</div>
 			</div>
 
-			<div className="relative border-x border-teritary text-center px-4 py-12 rounded-3xl lg:hidden flex flex-col items-center lg:h-[250px]">
+			<div className="relative border-x border-accent text-center px-4 py-12 rounded-3xl lg:hidden flex flex-col items-center lg:h-[250px]">
 				<div className="flex flex-col items-center mb-2">
 					<div className="">
 						<h2 className="text-lg md:text-2xl font-medium pb-6">

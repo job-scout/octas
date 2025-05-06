@@ -80,6 +80,35 @@ code {
 }
 
 
+/* common */
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 70px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sub_heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #333333;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+}
+
 /* home page banner */
 
 
@@ -132,15 +161,3 @@ code {
   }
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.sub_heading {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 40px;
-  color: #333333;
-}
